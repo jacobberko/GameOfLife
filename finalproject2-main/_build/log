@@ -1,0 +1,144 @@
+# dune exec finalproject/bin/main.exe
+# OCAMLPARAM: unset
+# Shared cache: disabled
+# Workspace root: /Users/jakeberko/cs3110/finalproject2-main
+# Auto-detected concurrency: 8
+$ /Users/jakeberko/.opam/cs3110-2023fa/bin/ocamlc.opt -config > /var/folders/8s/hvg0by5921j4jq85jpr55dfc0000gn/T/dune_12b49d_output
+# Dune context:
+#  { name = "default"
+#  ; kind = "default"
+#  ; profile = Dev
+#  ; merlin = true
+#  ; for_host = None
+#  ; fdo_target_exe = None
+#  ; build_dir = In_build_dir "default"
+#  ; ocaml_bin = External "/Users/jakeberko/.opam/cs3110-2023fa/bin"
+#  ; ocaml = Ok External "/Users/jakeberko/.opam/cs3110-2023fa/bin/ocaml"
+#  ; ocamlc = External "/Users/jakeberko/.opam/cs3110-2023fa/bin/ocamlc.opt"
+#  ; ocamlopt =
+#      Ok External "/Users/jakeberko/.opam/cs3110-2023fa/bin/ocamlopt.opt"
+#  ; ocamldep =
+#      Ok External "/Users/jakeberko/.opam/cs3110-2023fa/bin/ocamldep.opt"
+#  ; ocamlmklib =
+#      Ok External "/Users/jakeberko/.opam/cs3110-2023fa/bin/ocamlmklib.opt"
+#  ; env =
+#      map
+#        { "DUNE_OCAML_HARDCODED" :
+#            "/Users/jakeberko/.opam/cs3110-2023fa/lib/ocaml:/Users/jakeberko/.opam/cs3110-2023fa/lib"
+#        ; "DUNE_OCAML_STDLIB" :
+#            "/Users/jakeberko/.opam/cs3110-2023fa/lib/ocaml"
+#        ; "DUNE_SOURCEROOT" : "/Users/jakeberko/cs3110/finalproject2-main"
+#        ; "INSIDE_DUNE" :
+#            "/Users/jakeberko/cs3110/finalproject2-main/_build/default"
+#        ; "OCAMLFIND_IGNORE_DUPS_IN" :
+#            "/Users/jakeberko/cs3110/finalproject2-main/_build/install/default/lib"
+#        ; "OCAMLPATH" :
+#            "/Users/jakeberko/cs3110/finalproject2-main/_build/install/default/lib"
+#        ; "OCAMLTOP_INCLUDE_PATH" :
+#            "/Users/jakeberko/cs3110/finalproject2-main/_build/install/default/lib/toplevel"
+#        ; "OCAML_COLOR" : "always"
+#        ; "OPAMCOLOR" : "always"
+#        }
+#  ; findlib_paths =
+#      [ External "/Users/jakeberko/.opam/cs3110-2023fa/lib/ocaml"
+#      ; External "/Users/jakeberko/.opam/cs3110-2023fa/lib"
+#      ]
+#  ; natdynlink_supported = true
+#  ; supports_shared_libraries = true
+#  ; ocaml_config =
+#      { version = "5.0.0"
+#      ; standard_library_default =
+#          "/Users/jakeberko/.opam/cs3110-2023fa/lib/ocaml"
+#      ; standard_library = "/Users/jakeberko/.opam/cs3110-2023fa/lib/ocaml"
+#      ; standard_runtime = "the_standard_runtime_variable_was_deleted"
+#      ; ccomp_type = "cc"
+#      ; c_compiler = "cc"
+#      ; ocamlc_cflags =
+#          [ "-O2"; "-fno-strict-aliasing"; "-fwrapv"; "-pthread" ]
+#      ; ocamlc_cppflags = [ "-D_FILE_OFFSET_BITS=64" ]
+#      ; ocamlopt_cflags =
+#          [ "-O2"; "-fno-strict-aliasing"; "-fwrapv"; "-pthread" ]
+#      ; ocamlopt_cppflags = [ "-D_FILE_OFFSET_BITS=64" ]
+#      ; bytecomp_c_compiler =
+#          [ "cc"
+#          ; "-O2"
+#          ; "-fno-strict-aliasing"
+#          ; "-fwrapv"
+#          ; "-pthread"
+#          ; "-D_FILE_OFFSET_BITS=64"
+#          ]
+#      ; bytecomp_c_libraries = [ "-lm"; "-lpthread" ]
+#      ; native_c_compiler =
+#          [ "cc"
+#          ; "-O2"
+#          ; "-fno-strict-aliasing"
+#          ; "-fwrapv"
+#          ; "-pthread"
+#          ; "-D_FILE_OFFSET_BITS=64"
+#          ]
+#      ; native_c_libraries = [ "-lm"; "-lpthread" ]
+#      ; native_pack_linker = [ "ld"; "-r"; "-o" ]
+#      ; cc_profile = []
+#      ; architecture = "arm64"
+#      ; model = "default"
+#      ; int_size = 63
+#      ; word_size = 64
+#      ; system = "macosx"
+#      ; asm = [ "cc"; "-c"; "-Wno-trigraphs" ]
+#      ; asm_cfi_supported = true
+#      ; with_frame_pointers = false
+#      ; ext_exe = ""
+#      ; ext_obj = ".o"
+#      ; ext_asm = ".s"
+#      ; ext_lib = ".a"
+#      ; ext_dll = ".so"
+#      ; os_type = "Unix"
+#      ; default_executable_name = "a.out"
+#      ; systhread_supported = true
+#      ; host = "aarch64-apple-darwin23.0.0"
+#      ; target = "aarch64-apple-darwin23.0.0"
+#      ; profiling = false
+#      ; flambda = false
+#      ; spacetime = false
+#      ; safe_string = true
+#      ; exec_magic_number = "Caml1999X032"
+#      ; cmi_magic_number = "Caml1999I032"
+#      ; cmo_magic_number = "Caml1999O032"
+#      ; cma_magic_number = "Caml1999A032"
+#      ; cmx_magic_number = "Caml1999Y032"
+#      ; cmxa_magic_number = "Caml1999Z032"
+#      ; ast_impl_magic_number = "Caml1999M032"
+#      ; ast_intf_magic_number = "Caml1999N032"
+#      ; cmxs_magic_number = "Caml1999D032"
+#      ; cmt_magic_number = "Caml1999T032"
+#      ; natdynlink_supported = true
+#      ; supports_shared_libraries = true
+#      ; windows_unicode = false
+#      }
+#  }
+$ (cd _build/default && /Users/jakeberko/.opam/cs3110-2023fa/bin/ocamlc.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62@67@69-40 -strict-sequence -strict-formats -short-paths -keep-locs -w -49 -nopervasives -nostdlib -g -bin-annot -I finalproject/lib/.game.objs/byte -no-alias-deps -opaque -o finalproject/lib/.game.objs/byte/game.cmo -c -impl finalproject/lib/game.ml-gen)
+$ (cd _build/default && /Users/jakeberko/.opam/cs3110-2023fa/bin/ocamldep.opt -modules -impl finalproject/lib/board.ml) > _build/default/finalproject/lib/.game.objs/game__Board.impl.d
+$ (cd _build/default && /Users/jakeberko/.opam/cs3110-2023fa/bin/ocamldep.opt -modules -intf finalproject/lib/user.mli) > _build/default/finalproject/lib/.game.objs/game__User.intf.d
+$ (cd _build/default && /Users/jakeberko/.opam/cs3110-2023fa/bin/ocamldep.opt -modules -intf finalproject/lib/dicerolls.mli) > _build/default/finalproject/lib/.game.objs/game__Dicerolls.intf.d
+$ (cd _build/default && /Users/jakeberko/.opam/cs3110-2023fa/bin/ocamldep.opt -modules -impl finalproject/lib/user.ml) > _build/default/finalproject/lib/.game.objs/game__User.impl.d
+$ (cd _build/default && /Users/jakeberko/.opam/cs3110-2023fa/bin/ocamldep.opt -modules -intf finalproject/lib/boardgame.mli) > _build/default/finalproject/lib/.game.objs/game__Boardgame.intf.d
+$ (cd _build/default && /Users/jakeberko/.opam/cs3110-2023fa/bin/ocamldep.opt -modules -intf finalproject/lib/board.mli) > _build/default/finalproject/lib/.game.objs/game__Board.intf.d
+$ (cd _build/default && /Users/jakeberko/.opam/cs3110-2023fa/bin/ocamldep.opt -modules -intf finalproject/lib/majors.mli) > _build/default/finalproject/lib/.game.objs/game__Majors.intf.d
+$ (cd _build/default && /Users/jakeberko/.opam/cs3110-2023fa/bin/ocamldep.opt -modules -impl finalproject/lib/dicerolls.ml) > _build/default/finalproject/lib/.game.objs/game__Dicerolls.impl.d
+$ (cd _build/default && /Users/jakeberko/.opam/cs3110-2023fa/bin/ocamldep.opt -modules -impl finalproject/lib/boardgame.ml) > _build/default/finalproject/lib/.game.objs/game__Boardgame.impl.d
+$ (cd _build/default && /Users/jakeberko/.opam/cs3110-2023fa/bin/ocamldep.opt -modules -impl finalproject/lib/majors.ml) > _build/default/finalproject/lib/.game.objs/game__Majors.impl.d
+$ (cd _build/default && /Users/jakeberko/.opam/cs3110-2023fa/bin/ocamlc.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62@67@69-40 -strict-sequence -strict-formats -short-paths -keep-locs -g -bin-annot -I finalproject/lib/.game.objs/byte -no-alias-deps -opaque -open Game -o finalproject/lib/.game.objs/byte/game__User.cmi -c -intf finalproject/lib/user.mli)
+$ (cd _build/default && /Users/jakeberko/.opam/cs3110-2023fa/bin/ocamlc.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62@67@69-40 -strict-sequence -strict-formats -short-paths -keep-locs -g -bin-annot -I finalproject/lib/.game.objs/byte -no-alias-deps -opaque -open Game -o finalproject/lib/.game.objs/byte/game__Dicerolls.cmi -c -intf finalproject/lib/dicerolls.mli)
+$ (cd _build/default && /Users/jakeberko/.opam/cs3110-2023fa/bin/ocamlc.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62@67@69-40 -strict-sequence -strict-formats -short-paths -keep-locs -g -bin-annot -I finalproject/lib/.game.objs/byte -no-alias-deps -opaque -open Game -o finalproject/lib/.game.objs/byte/game__Board.cmi -c -intf finalproject/lib/board.mli)
+$ (cd _build/default && /Users/jakeberko/.opam/cs3110-2023fa/bin/ocamlc.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62@67@69-40 -strict-sequence -strict-formats -short-paths -keep-locs -g -bin-annot -I finalproject/lib/.game.objs/byte -no-alias-deps -opaque -open Game -o finalproject/lib/.game.objs/byte/game__Majors.cmi -c -intf finalproject/lib/majors.mli)
+$ (cd _build/default && /Users/jakeberko/.opam/cs3110-2023fa/bin/ocamlc.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62@67@69-40 -strict-sequence -strict-formats -short-paths -keep-locs -g -bin-annot -I finalproject/lib/.game.objs/byte -no-alias-deps -opaque -open Game -o finalproject/lib/.game.objs/byte/game__Boardgame.cmi -c -intf finalproject/lib/boardgame.mli)
+$ (cd _build/default && /Users/jakeberko/.opam/cs3110-2023fa/bin/ocamlc.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62@67@69-40 -strict-sequence -strict-formats -short-paths -keep-locs -g -bin-annot -I finalproject/bin/.main.eobjs/byte -I finalproject/lib/.game.objs/byte -no-alias-deps -opaque -o finalproject/bin/.main.eobjs/byte/dune__exe__Main.cmi -c -intf finalproject/bin/main.mli)
+$ (cd _build/default && /Users/jakeberko/.opam/cs3110-2023fa/bin/ocamlopt.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62@67@69-40 -strict-sequence -strict-formats -short-paths -keep-locs -g -I finalproject/lib/.game.objs/byte -I finalproject/lib/.game.objs/native -intf-suffix .ml -no-alias-deps -opaque -open Game -o finalproject/lib/.game.objs/native/game__Dicerolls.cmx -c -impl finalproject/lib/dicerolls.ml)
+$ (cd _build/default && /Users/jakeberko/.opam/cs3110-2023fa/bin/ocamlopt.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62@67@69-40 -strict-sequence -strict-formats -short-paths -keep-locs -g -I finalproject/lib/.game.objs/byte -I finalproject/lib/.game.objs/native -intf-suffix .ml -no-alias-deps -opaque -open Game -o finalproject/lib/.game.objs/native/game__Majors.cmx -c -impl finalproject/lib/majors.ml)
+$ (cd _build/default && /Users/jakeberko/.opam/cs3110-2023fa/bin/ocamlopt.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62@67@69-40 -strict-sequence -strict-formats -short-paths -keep-locs -g -I finalproject/lib/.game.objs/byte -I finalproject/lib/.game.objs/native -intf-suffix .ml -no-alias-deps -opaque -open Game -o finalproject/lib/.game.objs/native/game__User.cmx -c -impl finalproject/lib/user.ml)
+$ (cd _build/default && /Users/jakeberko/.opam/cs3110-2023fa/bin/ocamlopt.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62@67@69-40 -strict-sequence -strict-formats -short-paths -keep-locs -g -I finalproject/lib/.game.objs/byte -I finalproject/lib/.game.objs/native -intf-suffix .ml -no-alias-deps -opaque -open Game -o finalproject/lib/.game.objs/native/game__Board.cmx -c -impl finalproject/lib/board.ml)
+$ (cd _build/default && /Users/jakeberko/.opam/cs3110-2023fa/bin/ocamlopt.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62@67@69-40 -strict-sequence -strict-formats -short-paths -keep-locs -w -49 -nopervasives -nostdlib -g -I finalproject/lib/.game.objs/byte -I finalproject/lib/.game.objs/native -intf-suffix .ml-gen -no-alias-deps -opaque -o finalproject/lib/.game.objs/native/game.cmx -c -impl finalproject/lib/game.ml-gen)
+$ (cd _build/default && /Users/jakeberko/.opam/cs3110-2023fa/bin/ocamlopt.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62@67@69-40 -strict-sequence -strict-formats -short-paths -keep-locs -g -I finalproject/bin/.main.eobjs/byte -I finalproject/bin/.main.eobjs/native -I finalproject/lib/.game.objs/byte -I finalproject/lib/.game.objs/native -intf-suffix .ml -no-alias-deps -opaque -o finalproject/bin/.main.eobjs/native/dune__exe__Main.cmx -c -impl finalproject/bin/main.ml)
+$ (cd _build/default && /Users/jakeberko/.opam/cs3110-2023fa/bin/ocamlopt.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62@67@69-40 -strict-sequence -strict-formats -short-paths -keep-locs -g -I finalproject/lib/.game.objs/byte -I finalproject/lib/.game.objs/native -intf-suffix .ml -no-alias-deps -opaque -open Game -o finalproject/lib/.game.objs/native/game__Boardgame.cmx -c -impl finalproject/lib/boardgame.ml)
+$ (cd _build/default && /Users/jakeberko/.opam/cs3110-2023fa/bin/ocamlopt.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62@67@69-40 -strict-sequence -strict-formats -short-paths -keep-locs -g -a -o finalproject/lib/game.cmxa finalproject/lib/.game.objs/native/game.cmx finalproject/lib/.game.objs/native/game__Majors.cmx finalproject/lib/.game.objs/native/game__User.cmx finalproject/lib/.game.objs/native/game__Dicerolls.cmx finalproject/lib/.game.objs/native/game__Boardgame.cmx finalproject/lib/.game.objs/native/game__Board.cmx)
+$ (cd _build/default && /Users/jakeberko/.opam/cs3110-2023fa/bin/ocamlopt.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62@67@69-40 -strict-sequence -strict-formats -short-paths -keep-locs -g -o finalproject/bin/main.exe finalproject/lib/game.cmxa finalproject/bin/.main.eobjs/native/dune__exe__Main.cmx)

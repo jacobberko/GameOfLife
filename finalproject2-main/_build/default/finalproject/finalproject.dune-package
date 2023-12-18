@@ -1,0 +1,92 @@
+(lang dune 3.10)
+(name finalproject)
+(sections (lib .) (libexec .) (bin ../../bin))
+(files
+ (lib
+  (META
+   board.ml
+   board.mli
+   boardgame.ml
+   boardgame.mli
+   dicerolls.ml
+   dicerolls.mli
+   dune-package
+   game.a
+   game.cma
+   game.cmi
+   game.cmt
+   game.cmx
+   game.cmxa
+   game.ml
+   game__Board.cmi
+   game__Board.cmt
+   game__Board.cmti
+   game__Board.cmx
+   game__Boardgame.cmi
+   game__Boardgame.cmt
+   game__Boardgame.cmti
+   game__Boardgame.cmx
+   game__Dicerolls.cmi
+   game__Dicerolls.cmt
+   game__Dicerolls.cmti
+   game__Dicerolls.cmx
+   game__Majors.cmi
+   game__Majors.cmt
+   game__Majors.cmti
+   game__Majors.cmx
+   game__User.cmi
+   game__User.cmt
+   game__User.cmti
+   game__User.cmx
+   majors.ml
+   majors.mli
+   opam
+   user.ml
+   user.mli))
+ (libexec (game.cmxs))
+ (bin (finalproject)))
+(library
+ (name finalproject)
+ (kind normal)
+ (archives (byte game.cma) (native game.cmxa))
+ (plugins (byte game.cma) (native game.cmxs))
+ (native_archives game.a)
+ (main_module_name Game)
+ (modes byte native)
+ (modules
+  (wrapped
+   (group
+    (alias
+     (obj_name game)
+     (visibility public)
+     (kind alias)
+     (source (path Game) (impl (path game.ml-gen))))
+    (name Game)
+    (modules
+     (module
+      (obj_name game__Board)
+      (visibility public)
+      (source (path Board) (intf (path board.mli)) (impl (path board.ml))))
+     (module
+      (obj_name game__Boardgame)
+      (visibility public)
+      (source
+       (path Boardgame)
+       (intf (path boardgame.mli))
+       (impl (path boardgame.ml))))
+     (module
+      (obj_name game__Dicerolls)
+      (visibility public)
+      (source
+       (path Dicerolls)
+       (intf (path dicerolls.mli))
+       (impl (path dicerolls.ml))))
+     (module
+      (obj_name game__Majors)
+      (visibility public)
+      (source (path Majors) (intf (path majors.mli)) (impl (path majors.ml))))
+     (module
+      (obj_name game__User)
+      (visibility public)
+      (source (path User) (intf (path user.mli)) (impl (path user.ml))))))
+   (wrapped true))))

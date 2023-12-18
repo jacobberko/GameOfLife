@@ -1,0 +1,5 @@
+# dune init proj finalproject
+# OCAMLPARAM: unset
+# Shared cache: disabled
+# Workspace root: /Users/andrewrichmond/Desktop/3110/finalproject/finalproject
+# Auto-detected concurrency: 8

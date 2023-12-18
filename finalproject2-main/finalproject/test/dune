@@ -1,0 +1,3 @@
+(executable
+ (name finalproject)
+ (libraries game ounit2))

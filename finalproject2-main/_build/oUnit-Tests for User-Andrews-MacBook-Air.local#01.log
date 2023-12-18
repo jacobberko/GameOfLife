@@ -1,0 +1,21 @@
+2023-12-09T19:57:59+00:00 Andrews-MacBook-Air.local#01 I: Start test Tests for User:0:Testing build on a simple user..
+2023-12-09T19:57:59+00:00 Andrews-MacBook-Air.local#01 I: Test Tests for User:0:Testing build on a simple user. is successful.
+2023-12-09T19:57:59+00:00 Andrews-MacBook-Air.local#01 I: End test Tests for User:0:Testing build on a simple user..
+2023-12-09T19:57:59+00:00 Andrews-MacBook-Air.local#01 I: Start test Tests for User:2:Testing initial position of a new user.
+2023-12-09T19:57:59+00:00 Andrews-MacBook-Air.local#01 I: Test Tests for User:2:Testing initial position of a new user is successful.
+2023-12-09T19:57:59+00:00 Andrews-MacBook-Air.local#01 I: End test Tests for User:2:Testing initial position of a new user.
+2023-12-09T19:57:59+00:00 Andrews-MacBook-Air.local#01 I: Start test Tests for User:4:Testing increment_money on a simple user..
+2023-12-09T19:57:59+00:00 Andrews-MacBook-Air.local#01 I: Test Tests for User:4:Testing increment_money on a simple user. is successful.
+2023-12-09T19:57:59+00:00 Andrews-MacBook-Air.local#01 I: End test Tests for User:4:Testing increment_money on a simple user..
+2023-12-09T19:57:59+00:00 Andrews-MacBook-Air.local#01 I: Start test Tests for User:6:Testing simple increment of position.
+2023-12-09T19:57:59+00:00 Andrews-MacBook-Air.local#01 I: Test Tests for User:6:Testing simple increment of position is successful.
+2023-12-09T19:57:59+00:00 Andrews-MacBook-Air.local#01 I: End test Tests for User:6:Testing simple increment of position.
+2023-12-09T19:57:59+00:00 Andrews-MacBook-Air.local#01 I: Start test Tests for User:8:Testing removing a major.
+2023-12-09T19:57:59+00:00 Andrews-MacBook-Air.local#01 I: Test Tests for User:8:Testing removing a major is successful.
+2023-12-09T19:57:59+00:00 Andrews-MacBook-Air.local#01 I: End test Tests for User:8:Testing removing a major.
+2023-12-09T19:57:59+00:00 Andrews-MacBook-Air.local#01 I: Start test Tests for User:10:Testing first element corner case on remove .
+2023-12-09T19:57:59+00:00 Andrews-MacBook-Air.local#01 I: Test Tests for User:10:Testing first element corner case on remove  is successful.
+2023-12-09T19:57:59+00:00 Andrews-MacBook-Air.local#01 I: End test Tests for User:10:Testing first element corner case on remove .
+2023-12-09T19:57:59+00:00 Andrews-MacBook-Air.local#01 I: Start test Tests for User:12:Testing corner case where removal occurs at end of list .
+2023-12-09T19:57:59+00:00 Andrews-MacBook-Air.local#01 I: Test Tests for User:12:Testing corner case where removal occurs at end of list  is successful.
+2023-12-09T19:57:59+00:00 Andrews-MacBook-Air.local#01 I: End test Tests for User:12:Testing corner case where removal occurs at end of list .

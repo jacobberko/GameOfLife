@@ -1,0 +1,75 @@
+2023-12-10T19:37:18+00:00 dhcp-vl2041-9652.eduroam.cornell.edu#02 I: Start test Tests for User:1:Testing build's assignment of money on a new user.
+2023-12-10T19:37:18+00:00 dhcp-vl2041-9652.eduroam.cornell.edu#02 I: Test Tests for User:1:Testing build's assignment of money on a new user is successful.
+2023-12-10T19:37:18+00:00 dhcp-vl2041-9652.eduroam.cornell.edu#02 I: End test Tests for User:1:Testing build's assignment of money on a new user.
+2023-12-10T19:37:18+00:00 dhcp-vl2041-9652.eduroam.cornell.edu#02 I: Start test Tests for User:3:Testing build on another simple user..
+2023-12-10T19:37:18+00:00 dhcp-vl2041-9652.eduroam.cornell.edu#02 I: Test Tests for User:3:Testing build on another simple user. is successful.
+2023-12-10T19:37:18+00:00 dhcp-vl2041-9652.eduroam.cornell.edu#02 I: End test Tests for User:3:Testing build on another simple user..
+2023-12-10T19:37:18+00:00 dhcp-vl2041-9652.eduroam.cornell.edu#02 I: Start test Tests for User:5:Testing increment_money on a user with non-zero money..
+2023-12-10T19:37:18+00:00 dhcp-vl2041-9652.eduroam.cornell.edu#02 I: Test Tests for User:5:Testing increment_money on a user with non-zero money. is successful.
+2023-12-10T19:37:18+00:00 dhcp-vl2041-9652.eduroam.cornell.edu#02 I: End test Tests for User:5:Testing increment_money on a user with non-zero money..
+2023-12-10T19:37:18+00:00 dhcp-vl2041-9652.eduroam.cornell.edu#02 I: Start test Tests for User:7:Testing simple increment of position (different user).
+2023-12-10T19:37:18+00:00 dhcp-vl2041-9652.eduroam.cornell.edu#02 I: Test Tests for User:7:Testing simple increment of position (different user) is successful.
+2023-12-10T19:37:18+00:00 dhcp-vl2041-9652.eduroam.cornell.edu#02 I: End test Tests for User:7:Testing simple increment of position (different user).
+2023-12-10T19:37:18+00:00 dhcp-vl2041-9652.eduroam.cornell.edu#02 I: Start test Tests for User:9:Testing a compound set of rolls on different user.
+2023-12-10T19:37:18+00:00 dhcp-vl2041-9652.eduroam.cornell.edu#02 I: Test Tests for User:9:Testing a compound set of rolls on different user is successful.
+2023-12-10T19:37:18+00:00 dhcp-vl2041-9652.eduroam.cornell.edu#02 I: End test Tests for User:9:Testing a compound set of rolls on different user.
+2023-12-10T19:37:18+00:00 dhcp-vl2041-9652.eduroam.cornell.edu#02 I: Start test Tests for User:11:Testing removing a major from the beginning of the list.
+2023-12-10T19:37:18+00:00 dhcp-vl2041-9652.eduroam.cornell.edu#02 I: Test Tests for User:11:Testing removing a major from the beginning of the list is successful.
+2023-12-10T19:37:18+00:00 dhcp-vl2041-9652.eduroam.cornell.edu#02 I: End test Tests for User:11:Testing removing a major from the beginning of the list.
+2023-12-10T19:37:18+00:00 dhcp-vl2041-9652.eduroam.cornell.edu#02 I: Start test Tests for User:13:Testing removing a major from the middle of the list.
+2023-12-10T19:37:18+00:00 dhcp-vl2041-9652.eduroam.cornell.edu#02 I: Test Tests for User:13:Testing removing a major from the middle of the list is successful.
+2023-12-10T19:37:18+00:00 dhcp-vl2041-9652.eduroam.cornell.edu#02 I: End test Tests for User:13:Testing removing a major from the middle of the list.
+2023-12-10T19:37:18+00:00 dhcp-vl2041-9652.eduroam.cornell.edu#02 I: Start test Tests for User:15:Testing removing a major from the end of the list.
+2023-12-10T19:37:18+00:00 dhcp-vl2041-9652.eduroam.cornell.edu#02 I: Test Tests for User:15:Testing removing a major from the end of the list is successful.
+2023-12-10T19:37:18+00:00 dhcp-vl2041-9652.eduroam.cornell.edu#02 I: End test Tests for User:15:Testing removing a major from the end of the list.
+2023-12-10T19:37:18+00:00 dhcp-vl2041-9652.eduroam.cornell.edu#02 I: Start test Tests for User:17:Testing removing a major when there is only one major.
+2023-12-10T19:37:18+00:00 dhcp-vl2041-9652.eduroam.cornell.edu#02 I: Test Tests for User:17:Testing removing a major when there is only one major is successful.
+2023-12-10T19:37:18+00:00 dhcp-vl2041-9652.eduroam.cornell.edu#02 I: End test Tests for User:17:Testing removing a major when there is only one major.
+2023-12-10T19:37:18+00:00 dhcp-vl2041-9652.eduroam.cornell.edu#02 I: Start test Tests for User:19:Testing removing a major with printing.
+2023-12-10T19:37:18+00:00 dhcp-vl2041-9652.eduroam.cornell.edu#02 I: Test Tests for User:19:Testing removing a major with printing is successful.
+2023-12-10T19:37:18+00:00 dhcp-vl2041-9652.eduroam.cornell.edu#02 I: End test Tests for User:19:Testing removing a major with printing.
+2023-12-10T19:37:18+00:00 dhcp-vl2041-9652.eduroam.cornell.edu#02 I: Start test Tests for User:21:Testing corner case with printing.
+2023-12-10T19:37:18+00:00 dhcp-vl2041-9652.eduroam.cornell.edu#02 I: Test Tests for User:21:Testing corner case with printing is successful.
+2023-12-10T19:37:18+00:00 dhcp-vl2041-9652.eduroam.cornell.edu#02 I: End test Tests for User:21:Testing corner case with printing.
+2023-12-10T19:37:18+00:00 dhcp-vl2041-9652.eduroam.cornell.edu#02 I: Start test Tests for User:23:Testing longer list end of list corner case with printing.
+2023-12-10T19:37:18+00:00 dhcp-vl2041-9652.eduroam.cornell.edu#02 I: Test Tests for User:23:Testing longer list end of list corner case with printing is successful.
+2023-12-10T19:37:18+00:00 dhcp-vl2041-9652.eduroam.cornell.edu#02 I: End test Tests for User:23:Testing longer list end of list corner case with printing.
+2023-12-10T19:37:18+00:00 dhcp-vl2041-9652.eduroam.cornell.edu#02 I: Start test Tests for User:25:Testing initial sum of rolls for a different user.
+2023-12-10T19:37:18+00:00 dhcp-vl2041-9652.eduroam.cornell.edu#02 I: Test Tests for User:25:Testing initial sum of rolls for a different user is successful.
+2023-12-10T19:37:18+00:00 dhcp-vl2041-9652.eduroam.cornell.edu#02 I: End test Tests for User:25:Testing initial sum of rolls for a different user.
+2023-12-10T19:37:18+00:00 dhcp-vl2041-9652.eduroam.cornell.edu#02 I: Start test Tests for User:27:Testing sum of rolls after multiple updates.
+2023-12-10T19:37:18+00:00 dhcp-vl2041-9652.eduroam.cornell.edu#02 I: Test Tests for User:27:Testing sum of rolls after multiple updates is successful.
+2023-12-10T19:37:18+00:00 dhcp-vl2041-9652.eduroam.cornell.edu#02 I: End test Tests for User:27:Testing sum of rolls after multiple updates.
+2023-12-10T19:37:18+00:00 dhcp-vl2041-9652.eduroam.cornell.edu#02 I: Start test Tests for User:29:Testing sum of rolls over multiple turns.
+2023-12-10T19:37:18+00:00 dhcp-vl2041-9652.eduroam.cornell.edu#02 I: Test Tests for User:29:Testing sum of rolls over multiple turns is successful.
+2023-12-10T19:37:18+00:00 dhcp-vl2041-9652.eduroam.cornell.edu#02 I: End test Tests for User:29:Testing sum of rolls over multiple turns.
+2023-12-10T19:37:18+00:00 dhcp-vl2041-9652.eduroam.cornell.edu#02 I: Start test Tests for User:31:Testing sum of rolls with 0 roll.
+2023-12-10T19:37:18+00:00 dhcp-vl2041-9652.eduroam.cornell.edu#02 I: Test Tests for User:31:Testing sum of rolls with 0 roll is successful.
+2023-12-10T19:37:18+00:00 dhcp-vl2041-9652.eduroam.cornell.edu#02 I: End test Tests for User:31:Testing sum of rolls with 0 roll.
+2023-12-10T19:37:18+00:00 dhcp-vl2041-9652.eduroam.cornell.edu#02 I: Start test Tests for User:33:Testing sum of rolls after two rolls.
+2023-12-10T19:37:18+00:00 dhcp-vl2041-9652.eduroam.cornell.edu#02 I: Test Tests for User:33:Testing sum of rolls after two rolls is successful.
+2023-12-10T19:37:18+00:00 dhcp-vl2041-9652.eduroam.cornell.edu#02 I: End test Tests for User:33:Testing sum of rolls after two rolls.
+2023-12-10T19:37:18+00:00 dhcp-vl2041-9652.eduroam.cornell.edu#02 I: Start test Tests for User:35:Testing sum of rolls after multiple rolls.
+2023-12-10T19:37:18+00:00 dhcp-vl2041-9652.eduroam.cornell.edu#02 I: Test Tests for User:35:Testing sum of rolls after multiple rolls is successful.
+2023-12-10T19:37:18+00:00 dhcp-vl2041-9652.eduroam.cornell.edu#02 I: End test Tests for User:35:Testing sum of rolls after multiple rolls.
+2023-12-10T19:37:18+00:00 dhcp-vl2041-9652.eduroam.cornell.edu#02 I: Start test Tests for User:37:Testing sum of rolls with multiple small rolls.
+2023-12-10T19:37:18+00:00 dhcp-vl2041-9652.eduroam.cornell.edu#02 I: Test Tests for User:37:Testing sum of rolls with multiple small rolls is successful.
+2023-12-10T19:37:18+00:00 dhcp-vl2041-9652.eduroam.cornell.edu#02 I: End test Tests for User:37:Testing sum of rolls with multiple small rolls.
+2023-12-10T19:37:18+00:00 dhcp-vl2041-9652.eduroam.cornell.edu#02 I: Start test Tests for User:39:Testing profile basic.
+2023-12-10T19:37:18+00:00 dhcp-vl2041-9652.eduroam.cornell.edu#02 I: Test Tests for User:39:Testing profile basic is successful.
+2023-12-10T19:37:18+00:00 dhcp-vl2041-9652.eduroam.cornell.edu#02 I: End test Tests for User:39:Testing profile basic.
+2023-12-10T19:37:18+00:00 dhcp-vl2041-9652.eduroam.cornell.edu#02 I: Start test Tests for User:41:Testing profile information after changing name.
+2023-12-10T19:37:18+00:00 dhcp-vl2041-9652.eduroam.cornell.edu#02 I: Test Tests for User:41:Testing profile information after changing name is successful.
+2023-12-10T19:37:18+00:00 dhcp-vl2041-9652.eduroam.cornell.edu#02 I: End test Tests for User:41:Testing profile information after changing name.
+2023-12-10T19:37:18+00:00 dhcp-vl2041-9652.eduroam.cornell.edu#02 I: Start test Tests for User:43:Testing profile with non-zero money.
+2023-12-10T19:37:18+00:00 dhcp-vl2041-9652.eduroam.cornell.edu#02 I: Test Tests for User:43:Testing profile with non-zero money is successful.
+2023-12-10T19:37:18+00:00 dhcp-vl2041-9652.eduroam.cornell.edu#02 I: End test Tests for User:43:Testing profile with non-zero money.
+2023-12-10T19:37:18+00:00 dhcp-vl2041-9652.eduroam.cornell.edu#02 I: Start test Tests for User:45:Testing profile information with changed position.
+2023-12-10T19:37:18+00:00 dhcp-vl2041-9652.eduroam.cornell.edu#02 I: Test Tests for User:45:Testing profile information with changed position is successful.
+2023-12-10T19:37:18+00:00 dhcp-vl2041-9652.eduroam.cornell.edu#02 I: End test Tests for User:45:Testing profile information with changed position.
+2023-12-10T19:37:18+00:00 dhcp-vl2041-9652.eduroam.cornell.edu#02 I: Start test Tests for User:47:Testing profile information with changed name and money.
+2023-12-10T19:37:18+00:00 dhcp-vl2041-9652.eduroam.cornell.edu#02 I: Test Tests for User:47:Testing profile information with changed name and money is successful.
+2023-12-10T19:37:18+00:00 dhcp-vl2041-9652.eduroam.cornell.edu#02 I: End test Tests for User:47:Testing profile information with changed name and money.
+2023-12-10T19:37:18+00:00 dhcp-vl2041-9652.eduroam.cornell.edu#02 I: Start test Tests for User:49:Testing profile information with changed position, money and name.
+2023-12-10T19:37:18+00:00 dhcp-vl2041-9652.eduroam.cornell.edu#02 I: Test Tests for User:49:Testing profile information with changed position, money and name is successful.
+2023-12-10T19:37:18+00:00 dhcp-vl2041-9652.eduroam.cornell.edu#02 I: End test Tests for User:49:Testing profile information with changed position, money and name.

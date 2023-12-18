@@ -1,0 +1,3 @@
+(library
+ (public_name finalproject)
+ (name game))

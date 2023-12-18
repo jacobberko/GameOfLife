@@ -1,0 +1,139 @@
+Welcome to The Game of Life!
+Read on for installation instructions to get playing:
+
+Here is what we are going to install:
+1. A Unix development environment
+2. OPAM, the OCaml package manager
+3. An OPAM switch with the OCaml compiler and some packages.
+
+Then, we will learn how to play the game.
+
+Let's Begin!
+
+STEP 1: A Unix development environment:
+
+Linux:
+-> You have already completed this step!
+
+Mac:
+-> You have two options here, but make sure to choose ONLY one; you can install 
+either Homebrew or MacPorts. Detailed instructions follow:
+  Homebrew:
+  -> Open the terminal on your computer by going to Launchpad
+  and then searching for terminal. After opening, paste the 
+  following into the terminal:
+    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+  -> You have successfully completed step 1!
+
+  MacPorts:
+  -> Open the terminal on your computer by going to Launchpad
+  and then searching for terminal. After opening, paste the
+  following into the terminal:
+    xcode-select --install
+  -> Now, go to https://www.macports.org/install.php and find the download link
+  under Quickstart step 2 that corresponds to your operating system,
+  and follow installation instructions.
+  -> You have successfully completed step 1!
+
+Windows:
+-> Unix development in Windows is made possible by the Windows Subsystem for 
+Linux (WSL). If you have a recent version of Windows 
+(build 20262, released November 2020, or newer), WSL is easy to install. 
+If you don’t have that recent of a version, try running Windows Update to get it.
+  -> With a recent version of Windows, and assuming you've never installed WSL
+  before, here's what you have to do:
+    1. Open Windows PowerShell as Administrator. To do that, click Start, 
+    type PowerShell, and it should come up as the best match. 
+    Click “Run as Administrator”, and click Yes to allow changes.
+    2. Run wsl --install. (Or, if you have already installed WSL but not Ubuntu 
+    before, then instead run wsl --install -d Ubuntu.) When the Ubuntu download 
+    is completed, it will likely ask you to reboot. Do so. The installation will
+    automatically resume after the reboot.
+    3. You will be prompted to create a Unix username and password. You can use 
+    any username and password you wish. It has no bearing on your Windows 
+    username and password (though you are free to re-use those). Do not put a 
+    space in your username. Do not forget your password. You will need it in the 
+    future.
+    4. Now proceed to the Ubuntu setup paragraph below.
+  -> Without a recent version of windows:
+    -> Follow the instructions on the following link:
+      https://learn.microsoft.com/en-us/windows/wsl/install-manual
+      (Note that WSL2 is preferred over WSL1 by OCAML, so install WSL2 if you can.) 
+  UBUNTU SETUP:
+  -> These rest of these instructions assume that you installed Ubuntu (20.04) 
+  as the Linux distribution. That is the default distribution in WSL. In 
+  principle other distributions should work, but might require different 
+  commands from this point forward. Open the Ubuntu app. (It might already be 
+  open if you just finished installing WSL.) You will be at the Bash prompt, 
+  which looks something like this:
+    -> user@machine:~$
+    -> Enable copy-and-paste:
+
+      Click on the Ubuntu icon on the top left of the window.
+
+      Click Properties
+
+      Make sure “Use Ctrl+Shift+C/V as Copy/Paste” is checked.
+
+      Now Ctrl+Shift+C will copy and Ctrl+Shift+V will paste into the terminal. 
+      Note that you have to include Shift as part of that keystroke.
+
+  -> Run the following command to update the APT package manager, which is what 
+  helps to install Unix packages:
+    -> sudo apt update
+  -> Now run the following command to update all the APT software packages:
+    -> sudo apt upgrade -y
+  -> Then install some useful packages we will need:
+    -> sudo apt install -y zip unzip build-essential
+  -> You have successfully completed step 1!
+
+STEP 2: OPAM, the OCaml Package Manager:    
+  INSTALLING OPAM:
+  Linux:
+  -> Follow the instructions on https://opam.ocaml.org/doc/Install.html for your 
+  distribution.
+
+  Mac:
+  -> If you're using Homebrew, run the following command in your terminal:
+    -> brew install opam
+  -> If you're using MacPorts, run the following command in your terminal:
+    -> sudo port install opam
+
+  Windows:
+  -> Run the following command in Ubuntu:
+    -> sudo apt install opam 
+
+  INITIALIZE OPAM:
+  Linux, Mac, and WSL2:
+  -> Run the following command:
+    -> opam init --bare -a -y
+  WSL1:
+  -> Run the following command:
+    -> opam init --bare -a -y --disable-sandboxing  
+
+  -> You have successfully completed step 2!  
+
+STEP 3: Create an OPAM Switch:
+  -> Create a swtich for this game by running the following command:
+    -> opam switch create gameoflife-2023fa ocaml-base-compiler.5.0.0
+  -> Run this command to logout:
+    -> eval $(opam env)
+  -> Now install the OPAM packages we'll need by running this command:
+    -> opam install -y utop odoc ounit2 qcheck bisect_ppx menhir ocaml-lsp-server ocamlformat ocamlformat-rpc
+      -> (NOTE: We will not need all of these packages to run the game.)
+-> CONGRATULATIONS! You have finished step 3 and are ready to play!
+
+
+HOW TO PLAY:
+  -> The Game of Life is based entirely in the terminal of your system. Therefore,
+  you will need to open the terminal on your computer to play the game.
+  Once in your terminal, navigate to the directory that contains the game file
+  (it is the same directory that contains this install file). Once in the directory,
+  you can begin the game by typing the following command into your terminal:
+    -> make game
+  -> Congratulations on a successful install, enjoy!  
+
+
+
+Much of this install file was adapted from: 
+https://cs3110.github.io/textbook/chapters/preface/install.html 

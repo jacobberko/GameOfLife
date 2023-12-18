@@ -1,0 +1,21 @@
+2023-12-09T19:57:59+00:00 Andrews-MacBook-Air.local#02 I: Start test Tests for User:1:Testing build's assignment of money on a new user.
+2023-12-09T19:57:59+00:00 Andrews-MacBook-Air.local#02 I: Test Tests for User:1:Testing build's assignment of money on a new user is successful.
+2023-12-09T19:57:59+00:00 Andrews-MacBook-Air.local#02 I: End test Tests for User:1:Testing build's assignment of money on a new user.
+2023-12-09T19:57:59+00:00 Andrews-MacBook-Air.local#02 I: Start test Tests for User:3:Testing build on another simple user..
+2023-12-09T19:57:59+00:00 Andrews-MacBook-Air.local#02 I: Test Tests for User:3:Testing build on another simple user. is successful.
+2023-12-09T19:57:59+00:00 Andrews-MacBook-Air.local#02 I: End test Tests for User:3:Testing build on another simple user..
+2023-12-09T19:57:59+00:00 Andrews-MacBook-Air.local#02 I: Start test Tests for User:5:Testing increment_money on a user with non-zero money..
+2023-12-09T19:57:59+00:00 Andrews-MacBook-Air.local#02 I: Test Tests for User:5:Testing increment_money on a user with non-zero money. is successful.
+2023-12-09T19:57:59+00:00 Andrews-MacBook-Air.local#02 I: End test Tests for User:5:Testing increment_money on a user with non-zero money..
+2023-12-09T19:57:59+00:00 Andrews-MacBook-Air.local#02 I: Start test Tests for User:7:Testing a compound set of rolls on a user.
+2023-12-09T19:57:59+00:00 Andrews-MacBook-Air.local#02 I: Test Tests for User:7:Testing a compound set of rolls on a user is successful.
+2023-12-09T19:57:59+00:00 Andrews-MacBook-Air.local#02 I: End test Tests for User:7:Testing a compound set of rolls on a user.
+2023-12-09T19:57:59+00:00 Andrews-MacBook-Air.local#02 I: Start test Tests for User:9:Testing removing a major with printing.
+2023-12-09T19:57:59+00:00 Andrews-MacBook-Air.local#02 I: Test Tests for User:9:Testing removing a major with printing is successful.
+2023-12-09T19:57:59+00:00 Andrews-MacBook-Air.local#02 I: End test Tests for User:9:Testing removing a major with printing.
+2023-12-09T19:57:59+00:00 Andrews-MacBook-Air.local#02 I: Start test Tests for User:11:Testing corner case with printing.
+2023-12-09T19:57:59+00:00 Andrews-MacBook-Air.local#02 I: Test Tests for User:11:Testing corner case with printing is successful.
+2023-12-09T19:57:59+00:00 Andrews-MacBook-Air.local#02 I: End test Tests for User:11:Testing corner case with printing.
+2023-12-09T19:57:59+00:00 Andrews-MacBook-Air.local#02 I: Start test Tests for User:13:Testing end of list corner case with printing.
+2023-12-09T19:57:59+00:00 Andrews-MacBook-Air.local#02 I: Test Tests for User:13:Testing end of list corner case with printing is successful.
+2023-12-09T19:57:59+00:00 Andrews-MacBook-Air.local#02 I: End test Tests for User:13:Testing end of list corner case with printing.
